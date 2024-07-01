@@ -1,0 +1,228 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, skyblue, #ffffff);
+    background-size: 250% 200%;
+    animation: moveBackground 30s ease infinite;
+    position: relative;
+    color: #0f0c0c;
+    background-image: url('https://media.istockphoto.com/id/1174818020/photo/network-abstract-concept.jpg?s=612x612&w=0&k=20&c=f4MemWiM8bCiKSoysp_o4HcnacUWExOByrSh6dSszAg=');
+}
+
+@keyframes moveBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes twinkle {
+    0% { opacity: 0.1; }
+    100% { opacity: 0.3; }
+}
+h2{
+    font-size: 300%;
+    font-weight: 800;
+    font-style: normal;
+}
+header {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background: #0b2e5a;
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-size: large;
+    transition: transform 0.3s, box-shadow 0.3s
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.animated-heading {
+    font-size: 500%;
+    font-weight: 1000;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(50deg, #070707, #f53a3a, #070707);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animateText 1s linear infinite;
+}
+
+@keyframes animateText {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.profile-photo {
+    float: right;
+    margin: 20px;
+    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+}
+
+
+.welcome-gif {
+    display: block;
+    margin: 20px auto;
+    animation: popInOut 2s infinite;
+    height: 60%;
+    width: 45%;
+}
+
+@keyframes popInOut {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+section#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: 500;
+}
+section#about {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    background: #decff14d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+section#education {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section#projects{
+    font-weight: 500;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.2em;
+    background: #decff14d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h3{
+    font-weight: 600;
+}
+section#contacts{
+    font-weight: 700;
+}
+
+section#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgb(10, 10, 10), transparent);
+    opacity: 0.2;
+    animation: twinkle 2s infinite alternate;
+    z-index: 1;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background: #0b2e5a;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    font-size: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
