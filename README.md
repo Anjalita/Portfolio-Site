@@ -1,11 +1,11 @@
-Got it! Here's an updated version of the README.md with your specified sections:
 
-```markdown
-# Portfolio Website
+** Portfolio Website**
+![image](https://github.com/user-attachments/assets/50fdc4ed-d886-4976-bd8c-9040434fe3fb)
+
 
 Welcome to my portfolio website repository! This project showcases my skills and projects as a web developer, utilizing HTML, CSS, and JavaScript.
 
-## Table of Contents
+Table of Contents
 
 - [Home](#home)
 - [About Me](#about-me)
@@ -18,27 +18,27 @@ Welcome to my portfolio website repository! This project showcases my skills and
 - [Contributing](#contributing)
 - [License](#license)
 
-## Home
+**Home**
 
 The Home section provides a welcoming introduction to the website and sets the tone for visitors.
 
-## About Me
+**About Me**
 
 This section offers an overview of who I am, including my background, skills, and experience.
 
-## Education
+**Education**
 
-Here, you'll find information about my educational background, including relevant degrees, certifications, and academic achievements.
+Here, you'll find information about my educational background and academic achievements.
 
-## Projects
+**Projects**
 
 The Projects section showcases my work, featuring detailed descriptions and links to various projects I have completed.
 
-## Contact Me
+**Contact Me**
 
 In this section, visitors can find ways to reach out to me directly for inquiries or collaborations.
 
-## Technologies Used
+Technologies Used
 
 - **HTML**: For structuring the content.
 - **CSS**: For styling and layout.
@@ -60,7 +60,7 @@ To view the website locally:
 
 No additional dependencies are required, as this project uses plain HTML, CSS, and JavaScript.
 
-## Usage
+**Usage**
 
 To view the website:
 
@@ -68,7 +68,7 @@ To view the website:
 
 You can make changes to the HTML, CSS, and JavaScript files directly. Refresh the browser to see the updates.
 
-## Contributing
+**Contributing**
 
 If you'd like to contribute, please fork the repository and submit a pull request with your changes. Ensure that your contributions align with the existing code style and include a clear description of what was changed.
 
