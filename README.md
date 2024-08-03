@@ -1,5 +1,5 @@
 
-** Portfolio Website**
+**Portfolio Website**
 ![image](https://github.com/user-attachments/assets/50fdc4ed-d886-4976-bd8c-9040434fe3fb)
 
 
@@ -44,7 +44,7 @@ Technologies Used
 - **CSS**: For styling and layout.
 - **JavaScript**: For interactive features and dynamic content.
 
-## Installation
+**Installation**
 
 To view the website locally:
 
@@ -79,4 +79,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Thank you for checking out my portfolio website!
 ```
 
-Feel free to customize it further as needed!
